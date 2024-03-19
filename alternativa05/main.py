@@ -9,3 +9,8 @@ a) Essa string pode ser informada através de qualquer entrada de sua preferênc
 b) Evite usar funções prontas, como, por exemplo, reverse;
 
 '''
+
+string_padrao = str(input("Digite uma string para ver ele invertida: "))
+string_inversa = string_padrao[::-1].upper()
+
+print(string_inversa)
