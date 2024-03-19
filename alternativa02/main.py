@@ -27,9 +27,9 @@ numero = int(input("Digite um número para calcular e saber se ele pertence à s
 print("="*50)
 
 if numero in sequencia_fibonacci(numero):
-    print(f"O número {numero} pertence à sequência de fibonacci!")
+    print(f"O número {numero} PERTENCE à sequência de fibonacci!")
 else:
-    print(f"O número {numero} não pertence a sequência de fibonacci!")
+    print(f"O número {numero} NÃO pertence a sequência de fibonacci!")
     
 print("="*50)
 print("SEQUÊNCIA")
